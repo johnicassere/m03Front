@@ -49,12 +49,13 @@ const View = () => {
               {tarefa.titulo}
             </h1>
             <h4 className="text-center">
+              <b>Status: </b> {tarefa.statusTarefa}
+            </h4>
+            <h4 className="text-center">
               <b>Prioridade: </b>
               {tarefa.prioridade}
             </h4>
-            <h4 className="text-center">
-              <b>Status: </b> {tarefa.statusTarefa}
-            </h4>
+            
             <h4 className="text-center">
               <b>Prazo: </b>
               {tarefa.prazo}

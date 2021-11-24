@@ -80,9 +80,9 @@ const Cadastro = () => {
                 id="prioridade"
                 className="form-control"
               >
-                <option value="Min">Baixa</option>
-                <option value="Medio">Média</option>
-                <option value="Max">Alta</option>
+                <option value="Baixa">Baixa</option>
+                <option value="Media">Média</option>
+                <option value="Alta">Alta</option>
               </select>
             </div>
           </div>
@@ -95,9 +95,9 @@ const Cadastro = () => {
                   id="statusTarefa"
                   className="form-control"
                 >
-                  <option value="Min">Fazer</option>
-                  <option value="Medio">Fazendo</option>
-                  <option value="Max">Feito</option>
+                  <option value="Fazer">Fazer</option>
+                  <option value="Fazendo">Fazendo</option>
+                  <option value="Feito">Feito</option>
                 </select>
               </div>
             </div>
