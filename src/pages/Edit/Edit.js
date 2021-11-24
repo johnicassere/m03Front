@@ -26,7 +26,7 @@ const Edit = () => {
   const handleFieldsChange = (evento) => {
     const tarefaEdit = { ...tarefa };
     tarefaEdit[evento.target.name] = evento.target.value;
-    console.log(tarefaEdit);
+    //console.log(tarefaEdit);
     setTarefa(tarefaEdit);
   };
 
